@@ -5,7 +5,7 @@ local CSV = CSV
 --INITIATE VARIABLES--
 ----------------------
 CSV.name = "CyrodiilScoreViewer"
-CSV.version = "0.1.1"
+CSV.version = "0.2.0"
 CSV.variableVersion = 1
 CSV.defaultSettings = {
     offsetX = 100,
