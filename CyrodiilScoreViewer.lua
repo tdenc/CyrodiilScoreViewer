@@ -5,7 +5,7 @@ local CSV = CSV
 --INITIATE VARIABLES--
 ----------------------
 CSV.name = "CyrodiilScoreViewer"
-CSV.version = "0.1.0"
+CSV.version = "0.1.1"
 CSV.variableVersion = 1
 CSV.defaultSettings = {
     offsetX = 100,
@@ -174,7 +174,7 @@ function CSV.UpdateWindow()
         CSV.CreateWindow()
     end
 
-    CSVWindow:SetDimensions(480, 30 * (#CSV.campaigns * 6))
+    CSVWindow:SetDimensions(480, 140 * #CSV.campaigns + 30 * 1.5)
 
     for i, campaign in ipairs(CSV.campaigns) do
         -- Set campaign name

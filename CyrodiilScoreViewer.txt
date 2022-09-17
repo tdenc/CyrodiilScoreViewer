@@ -2,7 +2,7 @@
 ## Description: All alliance scores of all campaigns at a glance
 ## APIVersion: 100035 101031
 ## Author: @tdenc
-## Version: 0.1.0
+## Version: 0.1.1
 ## DependsOn:
 ## OptionalDependsOn:
 ## SavedVariables: CSVSavedVars
